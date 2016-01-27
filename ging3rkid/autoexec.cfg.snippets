@@ -1,0 +1,51 @@
+// Two Weapons
+//alias "slot2_2wp_bhopon" "eq_slot2; bind "[" "slot3_2wp"; bind "]" "slot3_2wp"; bind "mwheelup" "+jump"; bind "mwheeldown" "+jump"; bind "mouse3" "slot2_2wp";"
+//alias "slot2_2wp" "eq_slot2; bind mwheelup slot3_2wp; bind mwheeldown slot3_2wp; bind mouse3 echo works" 
+//alias "slot3_2wp_bhopon" "eq_slot3; bind "[" "slot2_2wp"; bind "]" "slot2_2wp"; bind "mwheelup" "+jump"; bind "mwheeldown" "+jump"; bind "mouse3" "slot3_2wp";"
+//alias "slot3_2wp" "eq_slot3; bind mwheelup slot2_2wp; bind mwheeldown slot2_2wp; bind mouse3 echo works"
+
+//play buttons\button16; slot3_2wp_bhopon
+
+// Three Weapons
+//alias "slot1_3wp_bhopon" "eq_slot1; bind "[" "slot3_3wp"; bind "]" "slot2_3wp"; bind "mwheelup" "+jump"; bind "mwheeldown" "+jump"; bind "mouse3" "slot1_3wp";"
+//alias "slot1_3wp" "eq_slot1; bind "mwheelup" "slot3_3wp"; bind "mwheeldown" "slot2_3wp"; bind "mouse3" "play "\buttons\button16"; slot1_3wp_bhopon";"
+//alias "slot2_3wp_bhopon" "eq_slot2; bind "[" "slot1_3wp"; bind "]" "slot3_3wp"; bind "mwheelup" "+jump"; bind "mwheeldown" "+jump"; bind "mouse3" "slot2_3wp";"
+//alias "slot2_3wp" "eq_slot2; bind "mwheelup" "slot1_3wp"; bind "mwheeldown" "slot3_3wp"; bind "mouse3" "play "\buttons\button16"; slot2_3wp_bhopon";"
+//alias "slot3_3wp_bhopon" "eq_slot3; bind "[" "slot2_3wp"; bind "]" "slot1_3wp"; bind "mwheelup" "+jump"; bind "mwheeldown" "+jump"; bind "mouse3" "slot3_3wp";"
+//alias "slot3_3wp" "eq_slot3; bind "mwheelup" "slot2_3wp"; bind "mwheeldown" "slot1_3wp"; bind "mouse3" "play "\buttons\button16"; slot3_3wp_bhopon";"
+
+
+// Bhop aliases possibly temp
+//alias "bhopon" "bind "mwheeldown" "+jump"; bind "mwheelup" "+jump"; bind "mouse3" "bhopoff"; play "\buttons\button15";
+//bind "mouse3" "bhopon";
+//alias "bhopoff" "bind "mouse3" "bhopon"; play "\buttons\button16"; bind "mwheelup" "slot2_2wp"; bind "mwheeldown" "slot2_2wp";"
+//alias "bhopon" "bind "mwheeldown" "+jump"; bind "mwheelup" "+jump"; bind "mouse3" "bhopoff"; play "\buttons\button15";"
+
+// Backup
+
+// Backup
+//alias "slot2_2wp" "eq_slot2; bind "mwheelup" "slot3_2wp"; bind "mwheeldown" "slot3_2wp";" 
+//alias "slot3_2wp" "eq_slot3; bind "mwheelup" "slot2_2wp"; bind "mwheeldown" "slot2_2wp";"
+
+//alias qs_slot2_2wp    "alias eq_invnext eq_slot2; alias eq_invprev eq_slot2; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot2; alias set_slot1 ; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot3_2wp    "alias eq_invnext eq_slot1; alias eq_invprev eq_slot1; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot3; alias set_slot1 qs_slot1; alias set_slot2 ; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+// source
+//alias qs_slot1    "alias eq_invnext eq_slot2; alias eq_invprev eq_slot10; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot1; alias set_slot1 ; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot2    "alias eq_invnext eq_slot3; alias eq_invprev eq_slot1; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot2; alias set_slot1 qs_slot1; alias set_slot2 ; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot3    "alias eq_invnext eq_slot5; alias eq_invprev eq_slot2; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot3; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 ; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot5    "alias eq_invnext eq_slot6; alias eq_invprev eq_slot3; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot5; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 ; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot6    "alias eq_invnext eq_slot7; alias eq_invprev eq_slot5; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot6; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 ; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot7    "alias eq_invnext eq_slot8; alias eq_invprev eq_slot6; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot7; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 ; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"  
+
+//alias qs_slot8    "alias eq_invnext eq_slot9; alias eq_invprev eq_slot7; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot8; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 ; alias set_slot9 qs_slot9; alias set_slot10 qs_slot10"
+
+//alias qs_slot9    "alias eq_invnext eq_slot10; alias eq_invprev eq_slot8; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot9; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 ; alias set_slot10 qs_slot10"
+
+//alias qs_slot10   "alias eq_invnext eq_slot1; alias eq_invprev eq_slot9; set_lastinv; alias set_lastinv alias eq_lastinv eq_slot10; alias set_slot1 qs_slot1; alias set_slot2 qs_slot2; alias set_slot3 qs_slot3; alias set_slot5 qs_slot5; alias set_slot6 qs_slot6; alias set_slot7 qs_slot7; alias set_slot8 qs_slot8; alias set_slot9 qs_slot9; alias set_slot10 "
